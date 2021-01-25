@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Condensed:wght@300;400&display=swap');
+
+body {
+  background-color:lavender;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color:rgb(71, 4, 24);
+  font-size: 17px;
+  line-height: 14px;
+}
+h1 {
+  color: rgb(71, 4, 24);
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 15px;
+}
+/* p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} */
+h2 {
+  color: rgb(71, 4, 24);
+  font-family: 'Roboto Condensed';
+}
+a {
+  color: rgb(71, 4, 24);
+  text-decoration: none ;
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  font-size: 16px;
+}
+a :hover{
+  color: rgb(71, 4, 24);
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.card {
+  background: rgb(169, 169, 241);
+  padding: 50px;
+  margin: 20px 0px;
+  border: 2px dotted rgb(71, 4, 24);
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px lavenderblush;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50px;
+}
+.btn {
+  background-color: rgb(198, 140, 236);
+  color: rgb(71, 4, 24);
+  border-radius: 3px;
+  padding: 12px 24px;
+}
+.btn :hover {
+  color: black;
+  color: rgb(71, 4, 24);
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(193, 114, 212);
+}
+.list-inline i:hover {
+  color: black;
+}
+.text-center {
+  text-align: center;
+}
+.center {
+  margin: 40%;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
